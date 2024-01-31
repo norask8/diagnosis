@@ -2,9 +2,9 @@ let consecutiveYesCount = 0;
 
 function askADHDQuestions() {
   const questions = [
-    "？",
-    "？",
-    "？",
+    "左目の下に大きなあざはありますか？",
+    "一回ウン万円もするネットワークの授業中に永遠とお天気情報やgoogle earthを見ていますか？",
+    "32歳にもなって研修先の企業で教官から叱られたことはありますか？",
   ];
 
   let result = "";
