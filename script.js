@@ -2,9 +2,9 @@ let consecutiveYesCount = 0;
 
 function askADHDQuestions() {
   const questions = [
-    "光るものに簡単に気をとられることがありますか？",
-    "長いミーティングを途中で夢中にならずにいられますか？",
-    "あなたの注意力は金魚よりも短いですか？",
+    "？",
+    "？",
+    "？",
   ];
 
   let result = "";
@@ -18,11 +18,11 @@ function askADHDQuestions() {
   }
 
   if (consecutiveYesCount === 3) {
-    result = "おっと、仮想のADHDが検出されました！";
+    result = "おっと、あなたはADHDのようだ。部屋から出るなよ！";
   } else if (consecutiveYesCount === 2) {
-    result = "2回だけYESですね。特別な何かが起きそうです！";
+    result = "2回だけYESですね。あなたからはP免とヘヤモクの香りがします！";
   } else if (consecutiveYesCount === 1) {
-    result = "1回だけYESです。興味深いですね。";
+    result = "1回だけYESです。つまらない話を大きな声で話すのはやめましょう。";
   } else {
     result = "ADHDの兆候は見られませんでした。";
   }
